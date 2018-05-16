@@ -281,24 +281,5 @@ def load_itunes_lib(filepath):
 if __name__ == '__main__':
     app = PlaylistImport()
 
-# line = """
-# \"spotify:track:7HVdPreXCX4YKlPypMPjOk\",\"Better Man\",\"Pearl Jam\",\"Vitalogy\",\"1\",\"11\",\"266800\",\"spotify:user:1282838329\",\"2014-04-30T01:22:11Z\"
-# """
-#
-#
-# https://itunes.apple.com/search?country=UK&media=music&entity=musicTrack&attribute=songTerm&term="pearl%20jam%20betterman"
-# f = StringIO.StringIO(line)
-# reader = csv.reader(f, delimiter=',')
-# for row in reader:
-#     if len(row) > 0:
-#         track = row[1]
-#         artist = row[2]
-#         album = row[3]
-#
-# items = itunes.search("{0} {1} {2}".format(artist, album, track), "music")
-#
-# for item in items:
-#     print '[' + item.type + ']', item.get_artist(), item.get_name(), item.get_url(), item.get_release_date(), item.id
-
 
 
