@@ -1,0 +1,9 @@
+.idea/
+*.pyc
+log/
+iTunes Music Library.xml
+itunes.json
+apple script add.txt
+lastfm.csv
+playlist.txt
+test.csv
